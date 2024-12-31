@@ -9,7 +9,7 @@ intents.guilds = True
 intents.message_content = True
 
 # Bot prefix and instantiation
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix="/", intents=intents)
 
 # Event: Bot is ready
 @bot.event
